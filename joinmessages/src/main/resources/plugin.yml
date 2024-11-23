@@ -1,0 +1,12 @@
+name: JoinMessages
+main: skynation.eu.joinmessages.Joinmessages
+version: 1.0
+api-version: 1.16
+commands:
+  joinmessage:
+    description: Open the custom join message editor
+    permission: joinmessages.custom
+permissions:
+  joinmessages.custom:
+    description: Allows player to set custom join messages
+    default: false

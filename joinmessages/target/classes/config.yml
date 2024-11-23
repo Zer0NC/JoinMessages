@@ -1,0 +1,31 @@
+# Allgemeine Einstellungen
+enableJoinMessages: true
+joinMessage: "%prefix% &aWillkommen zurück auf dem Server, %player%!"
+enableLeaveMessages: true
+leaveMessage: "%prefix% &c%player% hat den Server verlassen."
+prefix: "&x&0&8&4&C&F&B&lS&x&1&D&6&1&F&B&lk&x&3&1&7&6&F&C&ly&x&4&6&8&B&F&C&ln&x&5&B&A&0&F&C&la&x&6&F&B&4&F&C&lt&x&8&4&C&9&F&D&li&x&9&8&D&E&F&D&lo&x&A&D&F&3&F&D&ln &8| "
+
+# Format für benutzerdefinierte Join-Nachrichten
+customJoinMessageFormat: "%prefix% &7%player% &8➜ &7%message%"
+
+# Nachrichten für das GUI und den Chat
+messages:
+  customMessageRemoved: "%prefix% &cDeine benutzerdefinierte Join-Nachricht wurde entfernt, da du keine Berechtigung mehr hast."
+  noPermission: "%prefix% &cDu hast keine Berechtigung, diesen Befehl zu verwenden."
+  enterCustomMessage: "%prefix% &eGib jetzt deine benutzerdefinierte Join-Nachricht ein:"
+  customMessageSet: "%prefix% &aDeine benutzerdefinierte Join-Nachricht wurde festgelegt: &f%message%"
+  customMessageDeleted: "%prefix% &cDeine benutzerdefinierte Join-Nachricht wurde gelöscht."
+  setCancelled: "%prefix% &cDer Vorgang zum Setzen der Nachricht wurde abgebrochen."
+
+# GUI-Item-Konfiguration
+gui:
+  createMessageItem:
+    name: "&eErstelle eine benutzerdefinierte Join-Nachricht"
+    lore:
+      - "&7Klicke hier, um eine Nachricht zu erstellen, die"
+      - "&7beim Beitritt angezeigt wird."
+  deleteMessageItem:
+    name: "&cLösche deine benutzerdefinierte Join-Nachricht"
+    lore:
+      - "&7Klicke hier, um deine aktuelle Nachricht zu entfernen."
+
